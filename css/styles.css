@@ -1,0 +1,195 @@
+ul, li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+body{
+    font-family: Roboto, sans-serif;
+
+}
+h1, h2, h3, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ol, ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+address{
+    font-style: normal;
+}
+/* ===== Header styles ===== */ /* */
+
+.page-navigation{
+    display: flex; /* робить дітей в рядок */
+    padding-top: 24px;
+    justify-content: baseline; /* вирівнює по основній осі */
+    align-items: center; /* вирівнює дітей по допоміжній осі*/
+    margin-bottom: 24px;
+}
+.page-logo{
+color: var(--IRIS, #4D5AE5);
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.16; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+margin-left: 156px;
+margin-right: 76px;
+
+}
+.page-logo .page-logo-span{
+    color: #2E2F42;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin-right: 332px;
+    
+}
+.menu-item:not(:last-child){
+    padding-right: 40px;
+}
+
+.menu-link{
+color: var(--NAVY-BLUE, #2E2F42);
+font-family: Roboto, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02px;
+}
+
+.menu-item:hover,
+.menu-item:focus{
+    color: #4D5AE5;
+}
+.address-list{
+    display: flex;
+}
+.address-item:not(:last-child){
+    margin-right: 40px;
+
+}
+.address-item a{
+    color: #434455;
+}
+/* ===== /Header styles ===== */
+/* ===== Main styles ===== */
+
+/* ===== Hero img styles ===== */
+.hero-img{
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    background: var(--NAVY-BLUE, #2E2F42);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+
+    
+}
+.hero-title{
+    color: var(--WHITE, #FFF);
+    text-align: center;
+
+    /* Header 1 */
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+    width: 496px;
+
+    text-align: center;
+    margin-bottom: 48px;
+  
+    
+}
+.hero-btn{
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    padding: 16px 32px; /* вертикальні 16px, горизонтальні 32px */
+    border: none;
+}
+.hero-btn:hover, .hero-btn:active{
+ background: #404BBF; /* темніший відтінок синього */
+    border: 2px solid #FFFFFF; /* білий бордер */
+}
+.hero-btn-name{
+    color: var(--WHITE, #FFF);
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+
+
+}
+
+/* ===== /Hero img styles ===== */
+/* ===== Advantages styles ===== */
+
+.advantages-list{
+    display: flex;
+    padding-top: 120px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 120px;
+
+}
+.advantages-list-item{
+    width: 266px;
+}
+.advantages-list-item:not(:last-child){
+    margin-right: 24px;
+}
+
+.item-name{
+    color: var(--NAVY-BLUE, #2E2F42);
+
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+}
+.item-text{
+    color: var(--SLATE, #434455);
+
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+}
+
+/* ===== /Advantages styles ===== */
+
+/* ===== Advantages styles ===== */
+
+
+/* ===== /Main styles ===== */
+
