@@ -106,8 +106,17 @@ letter-spacing: 0.32px;
 
 /* ===== /Advantages styles ===== */
 
-/* ===== Advantages styles ===== */
+/* ===== team-section styles ===== */
+.team-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.team-title h2{
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/* ===== /team-section styles ===== */
 
 /* ===== /Main styles ===== */
 
