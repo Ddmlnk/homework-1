@@ -6,6 +6,8 @@ a {
 }
 button{
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 body{
     font-family: Roboto, sans-serif;
@@ -97,13 +99,87 @@ letter-spacing: 0.32px;
 /* ===== Main styles ===== */
 
 /* ===== Hero img styles ===== */
+.hero-img{
+    padding-top: 188px;
+    background: var(--NAVY-BLUE, #2E2F42);
+    padding-bottom: 188px;
+}
+.hero-title{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 496px;
+    color: var(--WHITE, #FFF);
+text-align: center;
+/* Header 1 */
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 107.143% */
+letter-spacing: 1.12px;
+padding-bottom: 24px;
+}
+.hero-btn {
+    display: block;
+    width: 170px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+padding: 16px 32px;
 
+}
+.hero-btn-name{
+    color: var(--WHITE, #FFF);
+
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+}
 
 /* ===== /Hero img styles ===== */
 /* ===== Advantages styles ===== */
+.advantages-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.advantages-list{
+    display: flex;
+    justify-content: space-between;
+}
+.advantages-list-item{
+    width: 264px;
 
-
-
+}
+.item-name{
+    color: var(--NAVY-BLUE, #2E2F42);
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+padding-bottom: 4px;
+}
+.item-text{
+    color: var(--SLATE, #434455);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+padding-top: 4px;
+}
 /* ===== /Advantages styles ===== */
 
 /* ===== team-section styles ===== */
@@ -116,7 +192,6 @@ letter-spacing: 0.32px;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 120px;
     padding-bottom: 36px;
     text-align: center;
     color: var(--NAVY-BLUE, #2E2F42);
